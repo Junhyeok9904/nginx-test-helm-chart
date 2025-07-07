@@ -1,2 +1,2 @@
 
-postDeployMessage: "vault:secret/data/busybox-messages#message"
+postDeployMessage: <path:secret/data/busybox-messages#message>
