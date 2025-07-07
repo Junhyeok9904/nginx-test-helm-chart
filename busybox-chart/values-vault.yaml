@@ -1,10 +1,2 @@
-image:
-  repository: busybox
-  pullPolicy: IfNotPresent
-  tag: "latest"
 
-# ArgoCD Vault Plugin integration
-# This section will be processed by the ArgoCD Vault Plugin
-# The plugin will replace the placeholder with the actual secret value from Vault
-vault_secrets:
-  postDeployMessage: "vault:secret/data/busybox-messages#message"
+postDeployMessage: "vault:secret/data/busybox-messages#message"
