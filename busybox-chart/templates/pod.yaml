@@ -13,4 +13,4 @@ spec:
       args: ["while true; do echo hi; sleep 5; done"]
       env:
         - name: POST_DEPLOY_MESSAGE # Environment variable name
-          value: {{ .Values.postDeployMessage }} # Placeholder for the message
+          value: "{{ .Values.postDeployMessage }}" # Placeholder for the message
